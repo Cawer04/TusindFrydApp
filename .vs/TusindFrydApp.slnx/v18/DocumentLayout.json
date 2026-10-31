@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|c:\\users\\caspe\\desktop\\tusindfrydapp\\tusindfrydapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|solutionrelative:tusindfrydapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|c:\\users\\caspe\\desktop\\tusindfrydapp\\tusindfrydapp\\drivhus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|solutionrelative:tusindfrydapp\\drivhus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|c:\\users\\caspe\\desktop\\tusindfrydapp\\tusindfrydapp\\blomstersort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|solutionrelative:tusindfrydapp\\blomstersort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|c:\\users\\caspe\\desktop\\tusindfrydapp\\tusindfrydapp\\medarbejder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|solutionrelative:tusindfrydapp\\medarbejder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|c:\\users\\caspe\\desktop\\tusindfrydapp\\tusindfrydapp\\opt\u00E6lling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|solutionrelative:tusindfrydapp\\opt\u00E6lling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|c:\\users\\caspe\\desktop\\tusindfrydapp\\tusindfrydapp\\produktion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|solutionrelative:tusindfrydapp\\produktion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|c:\\users\\caspe\\desktop\\tusindfrydapp\\tusindfrydapp\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE89BF1-77C7-ED09-D5B4-A58E79946C5E}|TusindFrydApp\\TusindFrydApp.csproj|solutionrelative:tusindfrydapp\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Controller.cs",
+              "RelativeDocumentMoniker": "TusindFrydApp\\Controller.cs",
+              "ToolTip": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Controller.cs",
+              "RelativeToolTip": "TusindFrydApp\\Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T09:35:29.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Produktion.cs",
+              "DocumentMoniker": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Produktion.cs",
+              "RelativeDocumentMoniker": "TusindFrydApp\\Produktion.cs",
+              "ToolTip": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Produktion.cs",
+              "RelativeToolTip": "TusindFrydApp\\Produktion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T09:27:32.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Opt\u00E6lling.cs",
+              "DocumentMoniker": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Opt\u00E6lling.cs",
+              "RelativeDocumentMoniker": "TusindFrydApp\\Opt\u00E6lling.cs",
+              "ToolTip": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Opt\u00E6lling.cs",
+              "RelativeToolTip": "TusindFrydApp\\Opt\u00E6lling.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T09:21:45.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Medarbejder.cs",
+              "DocumentMoniker": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Medarbejder.cs",
+              "RelativeDocumentMoniker": "TusindFrydApp\\Medarbejder.cs",
+              "ToolTip": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Medarbejder.cs",
+              "RelativeToolTip": "TusindFrydApp\\Medarbejder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T09:20:49.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Blomstersort.cs",
+              "DocumentMoniker": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Blomstersort.cs",
+              "RelativeDocumentMoniker": "TusindFrydApp\\Blomstersort.cs",
+              "ToolTip": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Blomstersort.cs",
+              "RelativeToolTip": "TusindFrydApp\\Blomstersort.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T09:20:26.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Drivhus.cs",
+              "DocumentMoniker": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Drivhus.cs",
+              "RelativeDocumentMoniker": "TusindFrydApp\\Drivhus.cs",
+              "ToolTip": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Drivhus.cs",
+              "RelativeToolTip": "TusindFrydApp\\Drivhus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T09:20:06.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Program.cs",
+              "RelativeDocumentMoniker": "TusindFrydApp\\Program.cs",
+              "ToolTip": "C:\\Users\\caspe\\Desktop\\TusindFrydApp\\TusindFrydApp\\Program.cs",
+              "RelativeToolTip": "TusindFrydApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T08:53:31.697Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

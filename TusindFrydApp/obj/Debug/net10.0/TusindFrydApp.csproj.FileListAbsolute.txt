@@ -1,0 +1,15 @@
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\obj\Debug\net10.0\TusindFrydApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\obj\Debug\net10.0\TusindFrydApp.AssemblyInfoInputs.cache
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\obj\Debug\net10.0\TusindFrydApp.AssemblyInfo.cs
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\obj\Debug\net10.0\TusindFrydApp.csproj.CoreCompileInputs.cache
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\bin\Debug\net10.0\TusindFrydApp.exe
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\bin\Debug\net10.0\TusindFrydApp.deps.json
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\bin\Debug\net10.0\TusindFrydApp.runtimeconfig.json
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\bin\Debug\net10.0\TusindFrydApp.dll
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\bin\Debug\net10.0\TusindFrydApp.pdb
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\obj\Debug\net10.0\TusindFrydApp.dll
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\obj\Debug\net10.0\refint\TusindFrydApp.dll
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\obj\Debug\net10.0\TusindFrydApp.pdb
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\obj\Debug\net10.0\TusindFrydApp.genruntimeconfig.cache
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\obj\Debug\net10.0\ref\TusindFrydApp.dll
+C:\Users\caspe\source\repos\TusindFrydApp\TusindFrydApp\obj\Debug\net10.0\TusindFr.F6DF2385.Up2Date
