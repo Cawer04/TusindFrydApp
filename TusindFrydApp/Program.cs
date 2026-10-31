@@ -9,7 +9,7 @@ namespace TusindFrydApp
     // udelukkende igennem Controller-klassen
     internal class Program
     {
-        // Main er programmets startpunkt (entry point), som kastes i gang når applikationen køres.
+        
         static void Main(string[] args)
         {
             // Vi instantiere Controlleren, som tager sig af alle bagvedliggende data og forretningsregler.
@@ -25,9 +25,9 @@ namespace TusindFrydApp
                 Console.WriteLine("========================================");
                 Console.WriteLine("        TUSINDFRYD GARTNERI SYSTEM      ");
                 Console.WriteLine("========================================");
-                Console.WriteLine("1. Etabler ny blomstersort (Pr21)");
-                Console.WriteLine("2. Start produktion (Pr22)");
-                Console.WriteLine("3. Gennemse produktion / Optælling (Pr23)");
+                Console.WriteLine("1. Etabler ny blomstersort");
+                Console.WriteLine("2. Start produktion");
+                Console.WriteLine("3. Gennemse produktion / Optælling");
                 Console.WriteLine("4. Afslut produktion");
                 Console.WriteLine("5. Vis alle produktioner");
                 Console.WriteLine("6. Afslut program");
@@ -79,13 +79,13 @@ namespace TusindFrydApp
             string navn = Console.ReadLine();
 
             // Vi konverterer tekstinput fra Console.ReadLine() til heltal (int) eller decimaltal (double)
-            Console.Write("Indtast produktionstid i dage (f.eks. 25): ");
+            Console.Write("Indtast produktionstid i dage: ");
             int prodTid = int.Parse(Console.ReadLine());
 
-            Console.Write("Indtast halveringstid i dage (f.eks. 100): ");
+            Console.Write("Indtast halveringstid i dage: ");
             int halvering = int.Parse(Console.ReadLine());
 
-            Console.Write("Indtast størrelse (f.eks. 0,015): ");
+            Console.Write("Indtast størrelse: ");
             double størrelse = double.Parse(Console.ReadLine());
 
             // Sender data videre til controlleren (Array.Empty<byte>() fungerer som en tom pladsholder for billedet)
@@ -101,16 +101,16 @@ namespace TusindFrydApp
         static void PrøvStartProduktion(Controller controller)
         {
             Console.WriteLine("--- 2. START PRODUKTION ---");
-            Console.Write("Indtast drivhusnummer (f.eks. 2): ");
+            Console.Write("Indtast drivhusnummer: ");
             string drivhus = Console.ReadLine();
 
-            Console.Write("Indtast produktionsbakke navn (f.eks. 3C, 1A, 2A): ");
+            Console.Write("Indtast produktionsbakke navn: ");
             string bakke = Console.ReadLine();
 
-            Console.Write("Indtast blomstersort (f.eks. Kornblomst eller Tagetes): ");
+            Console.Write("Indtast blomstersort: ");
             string sort = Console.ReadLine();
 
-            Console.Write("Indtast startantal (f.eks. 1000): ");
+            Console.Write("Indtast startantal: ");
             int startAntal = int.Parse(Console.ReadLine());
 
             // Controlleren udregner det forventede slutantal og returnerer det direkte
@@ -122,32 +122,32 @@ namespace TusindFrydApp
             Console.ReadKey();
         }
 
-        // Hjælpemetode til Pr23 Øvelse 3: Gennemse produktion / Optælling[cite: 2, 4]
+        // Hjælpemetode til Pr23 Øvelse 3: Gennemse produktion / Optælling
         // Kører sekvensen med at angive medarbejder, vælge bakke og indtaste det faktiske tælleret resultat
         static void PrøvGennemseProduktion(Controller controller)
         {
             Console.WriteLine("--- 3. GENNEMSE PRODUKTION ---");
-            Console.Write("Indtast dine initialer (f.eks. HR eller OR): ");
+            Console.Write("Indtast dine initialer: ");
             string initialer = Console.ReadLine();
 
             // Del 1 af SD: Sætter aktiv medarbejder i controllerens tilstand
             controller.GennemsetAfMedarbejder(initialer);
 
-            Console.Write("Indtast produktionsbakke der skal gennemses (f.eks. 3C): ");
+            Console.Write("Indtast produktionsbakke der skal gennemses: ");
             string bakke = Console.ReadLine();
 
             // Del 2 af SD: Sætter den valgte bakke i controllerens tilstand
             controller.VælgeProduktionsbakke(bakke);
 
-            Console.Write("Indtast optalt antal blomster (f.eks. 875): ");
+            Console.Write("Indtast optalt antal blomster: ");
             int optalt = int.Parse(Console.ReadLine());
 
             // Del 3 af SD: Gemmer optællingen og får beregnede værdier retur via en tuple (res.beregnetSlutantal og res.afvigelseProcent)
             var res = controller.AngivOptællingsinformation(optalt, DateTime.Now);
 
-            Console.WriteLine($"\n--> Optælling gemt for medarbejder {initialer} på bakke {bakke}!");
-            Console.WriteLine($"--> Beregnet slutantal: {res.beregnetSlutantal}");
-            Console.WriteLine($"--> Afvigelse i procent: {res.afvigelseProcent}%");
+            Console.WriteLine($"\n Optælling gemt for medarbejder {initialer} på bakke {bakke}!");
+            Console.WriteLine($" Beregnet slutantal: {res.beregnetSlutantal}");
+            Console.WriteLine($" Afvigelse i procent: {res.afvigelseProcent}%");
             Console.WriteLine("\nTryk på en tast for at gå tilbage...");
             Console.ReadKey();
         }
@@ -156,7 +156,7 @@ namespace TusindFrydApp
         static void PrøvAfslutProduktion(Controller controller)
         {
             Console.WriteLine("--- 4. AFSLUT PRODUKTION ---");
-            Console.Write("Indtast produktionsbakke der skal afsluttes (f.eks. 3C): ");
+            Console.Write("Indtast produktionsbakke der skal afsluttes: ");
             string bakke = Console.ReadLine();
 
             // Sætter status for produktionen på den valgte bakke til 'Afsluttet'
@@ -190,7 +190,7 @@ namespace TusindFrydApp
                     // Hvis der er foretaget en optælling på produktionen, udskrives disse detaljer også under
                     if (prod.Optælling != null)
                     {
-                        Console.WriteLine($"   ↳ Seneste optælling: {prod.Optælling.OptaltAntal} blomster | Afvigelse: {prod.Optælling.AfvigelsesProcent}% | Medarbejder: {prod.Optælling.Medarbejder.Initialer}");
+                        Console.WriteLine($"    Seneste optælling: {prod.Optælling.OptaltAntal} blomster | Afvigelse: {prod.Optælling.AfvigelsesProcent}% | Medarbejder: {prod.Optælling.Medarbejder.Initialer}");
                     }
                     Console.WriteLine(new string('-', 80));
                 }
