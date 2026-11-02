@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TusindFrydApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+722f0190f3755c3c5fbcbcfd938a1cfa44436ab9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d2647237fe3e4a1e5bb98b7624b9802eb9b45a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TusindFrydApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TusindFrydApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

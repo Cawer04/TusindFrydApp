@@ -24,7 +24,7 @@ namespace TusindFrydApp
                 Console.Clear();
                 Console.WriteLine("========================================");
                 Console.WriteLine("        TUSINDFRYD GARTNERI SYSTEM      ");
-                Console.WriteLine("========================================");
+                Console.WriteLine("=========================================");
                 Console.WriteLine("1. Etabler ny blomstersort");
                 Console.WriteLine("2. Start produktion");
                 Console.WriteLine("3. Gennemse produktion / Optælling");

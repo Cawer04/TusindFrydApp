@@ -15,11 +15,11 @@ namespace TusindFrydApp
         public int BeregninetSlutAntal { get; set; }
         public double AfvigelsesProcent { get; set; }
 
-        // Association til Medarbejder klassen: Gemmer en reference til den medarbejder, der udførte optællingen[cite: 2]
+        // Association til Medarbejder klassen: Gemmer en reference til den medarbejder, der udførte optællingen
         public Medarbejder Medarbejder { get; set; }
 
         // Constructor: Kører når 'Produktion'-klassen opretter et nytt Optælling-objekt.
-        // Den modtager de nødvendige data fra optællingen og beregner afvigelsesprocenten med det samme[cite: 2].
+        // Den modtager de nødvendige data fra optællingen og beregner afvigelsesprocenten med det samme
         public Optælling(DateTime optaltDato, int optaltAntal, int forventetSlutAntal, Medarbejder medarbejder)
         {
             // Gemmer input-værdierne i klassens egenskaber
@@ -33,7 +33,7 @@ namespace TusindFrydApp
             {
                 // Beregner afvigelsen i procent: ((faktisk  forventet) / forventet) * 100[2].
                 // (double) typecasting er nødvendig, så C# ikke laver heltalsdivision, som ville runde forkert af.
-                // Math.Round(...,2) afrunder resultatet til 2 decimaler, så det ser pænt ud[cite: 2].
+                // Math.Round(...,2) afrunder resultatet til 2 decimaler, så det ser pænt ud
                 AfvigelsesProcent = Math.Round(((double)(optaltAntal - forventetSlutAntal) / forventetSlutAntal) * 100, 2);
             }
         }
